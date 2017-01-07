@@ -13,7 +13,7 @@ try:
 except ImportError:
     class Notifier(object):
         @staticmethod
-        def notify():
+        def notify(string, title):
             pass
 
 
